@@ -1,0 +1,5 @@
+hosts = 127.0.0.1
+user = mailuser
+password = dbpass
+dbname = mailserver
+query = SELECT address FROM sender_allow_map WHERE user='%s' AND enabled='1'

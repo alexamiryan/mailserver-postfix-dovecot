@@ -1,0 +1,5 @@
+hosts = 127.0.0.1
+user = mailuser
+password = dbpass
+dbname = mailserver
+query = SELECT 1 FROM users WHERE email='%s' AND enabled='1'
